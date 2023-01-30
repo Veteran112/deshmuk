@@ -1,0 +1,62 @@
+@import '../../assets/scss/global.scss';
+
+.exam_navbar {
+  background-color: rgb(255, 87, 35);
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+  color: white;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.exam_nav {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.auth {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.profile-container {
+  background-color: $color-tint-white !important;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  .profile-box {
+    background: white;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 20px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    .divider {
+      border-bottom: 1px solid #7f858a;
+    }
+  }
+  .phone_field {
+    height: 50px;
+    padding: 5px 0 0 0px;
+  }
+}
+
+.welcome {
+  color: $color-tint-gray;
+}
+
+.login_btn {
+  background-color: rgb(255, 87, 35);
+  border-radius: 30px;
+  border: 1px solid rgb(255, 87, 35);
+  cursor: pointer;
+  width: 150px;
+}

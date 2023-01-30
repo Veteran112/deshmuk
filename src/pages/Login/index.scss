@@ -1,0 +1,73 @@
+@import '../../assets/scss/global.scss';
+
+.login_navbar {
+  background-color: rgb(255, 87, 35);
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.login_btn {
+  background-color: rgb(255, 87, 35);
+  border-radius: 30px;
+  border: 1px solid rgb(255, 87, 35);
+  cursor: pointer;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.input {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.login-container {
+  background-color: $color-tint-white !important;
+  display: flex;
+  position: relative;
+  min-height: calc(100vh - 275px);
+  justify-content: center;
+  .login-box {
+    background: white;
+    min-height: 300px;
+    border-radius: 8px;
+    margin: 40px 20px 40px 20px;
+    padding: 20px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    // box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    .login-form {
+      margin-top: -5px;
+    }
+    .welcome {
+      color: $color-tint-gray;
+    }
+    .forgot-pass {
+      a {
+        color: $color-tint-gray;
+        &:hover {
+          color: inherit;
+        }
+      }
+    }
+    .MuiFormControlLabel-label {
+      font-variation-settings: 'wght' 700 !important;
+      color: black !important;
+    }
+    .MuiCheckbox-root {
+      padding-right: 3px !important;
+    }
+  }
+  @media (max-width:768px) {
+    min-height: 300px;
+    .login-box {
+      min-width: 250px;
+    }
+  }
+}
