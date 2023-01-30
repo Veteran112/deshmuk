@@ -19,8 +19,7 @@ const LoginView = () => {
   const login = () => {
     // const res = await auth.login(email, password.toLocaleLowerCase())
     // if (res) {
-    console.log('click')
-    history('/exam')
+    if (email == 'admin' && password == '123123123') history('/exam')
     // }
   }
 
